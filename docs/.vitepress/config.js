@@ -5,6 +5,8 @@ module.exports = {
   base: '/docs/',
   themeConfig: {
     smoothScroll: true,
+    outline: 'deep',
+    lastUpdatedText: '最后更新：',
     sidebar: [
       {
         text: '快速开始',
