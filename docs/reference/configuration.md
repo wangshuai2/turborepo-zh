@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Monorepo构建包
+title: 配置
 editLink: false
 ---
 
