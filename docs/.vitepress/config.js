@@ -2,7 +2,6 @@ module.exports = {
   title: 'Turborepo 中文文档',
   description: 'Turborepo中文文档，',
   lang: 'zh-CN',
-  base: '/docs/',
   themeConfig: {
     smoothScroll: true,
     outline: 'deep',
