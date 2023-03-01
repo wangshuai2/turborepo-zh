@@ -60,7 +60,7 @@ Turborepo 不处理安装软件包，所以你需要选择:
 
 你可能在 Terminal 里注意到了什么。`create-turbo` 给你描述了它添加的所有东西。
 
-```plain
+```
 >>> Creating a new turborepo with the following:
  - apps/web: Next.js with TypeScript
  - apps/docs: Next.js with TypeScript
@@ -271,7 +271,7 @@ turbo hello
 
 您可以看见控制台的错误：
 
-```plain
+```
 task `hello` not found in turbo `pipeline` in "turbo.json".
 Are you sure you added it?
 ```

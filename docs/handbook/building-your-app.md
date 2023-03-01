@@ -12,7 +12,7 @@ editLink: false
 
 Turborepo 的工作原理是将工作区任务放在它们所属的位置——在每个工作区的 `package.json` 中。让我们想象一下，你有一个 monorepo，看起来像这样：
 
-```plain
+```
 ├── apps
 │   └── web
 │       └── package.json

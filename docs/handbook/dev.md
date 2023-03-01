@@ -149,7 +149,7 @@ pnpm add dotenv-cli --ignore-workspace-root-check
 
 将. env 文件添加到您的根工作区:
 
-```plain
+```
   ├── apps/
   ├── packages/
   ├── .env // [!code ++]
@@ -159,7 +159,7 @@ pnpm add dotenv-cli --ignore-workspace-root-check
 
 添加任何你需要注入环境变量:
 
-```plain
+```
 DATABASE_URL=my-database-url
 ```
 

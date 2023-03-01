@@ -15,7 +15,7 @@ editLink: false
 
 让我们想象一下你的多重回购设置是这样的：
 
-```plain
+```
 web (repo 1)
 ├─ package.json
 docs (repo 2)
@@ -28,7 +28,7 @@ app (repo 3)
 
 最好的办法在 monorepo 将组织他们:
 
-```plain
+```
 my-monorepo
 ├─ apps
 │  ├─ app
@@ -42,7 +42,7 @@ my-monorepo
 
 要开始共享代码，可以使用[内部包模式](/handbook/sharing-code/internal-packages)，生成一个新的包文件夹:
 
-```plain
+```
 my-monorepo
 ├─ apps
 │  ├─ app

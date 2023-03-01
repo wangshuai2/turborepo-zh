@@ -14,7 +14,7 @@ TL;DR: 在 monorepo 中，不相关的更改会使 Docker 在部署 app 时做�
 
 你有一个像这样的 monorepo：
 
-```plain
+```
 ├── apps
 │   ├── docs
 │   │   ├── server.js
@@ -27,7 +27,7 @@ TL;DR: 在 monorepo 中，不相关的更改会使 Docker 在部署 app 时做�
 
 您希望使用 Docker 部署 `apps/docs` ，因此需要创建 Dockerfile:
 
-```dockerfile
+```
 # Dockerfile
 FROM node:16
 
@@ -119,7 +119,7 @@ out
 
 我们详细的 `with-docker` 示例深入介绍了如何充分利用修剪功能。这是 Dockerfile，为了方便起见，复制过来了。
 
-```dockerfile
+```
 FROM node:alpine AS builder
 RUN apk add --no-cache libc6-compat
 RUN apk update
@@ -173,7 +173,7 @@ CMD node apps/web/server.js
 
 假设您使用的 Dockerfile 与上面的类似，我们将在 `turbo build` 之前从 `build` 参数中引入一些环境变量:
 
-```dockerfile
+```
 ARG TURBO_TEAM
 ENV TURBO_TEAM=$TURBO_TEAM
 

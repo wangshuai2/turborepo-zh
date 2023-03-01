@@ -42,7 +42,7 @@ editLink: false
 
 如果您正在使用 `pnpm`，您应该在根目录下添加一个名为 `.npmrc` 的文件：
 
-```npmrc
+```
 # .npmrc
 public-hoist-pattern[]=*prisma*
 ```

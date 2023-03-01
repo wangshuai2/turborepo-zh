@@ -50,7 +50,7 @@ packages:
 
 :::
 
-```plain
+```
 my-monorepo
 ├─ docs
 ├─ apps
