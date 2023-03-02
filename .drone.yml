@@ -5,6 +5,9 @@ steps:
   - name: build
     image: node:14.21-alpine
     commands:
+      - pwd
       - npm install pnpm -g
       - pnpm i
       - npm run build
+      - rm -rf /testweb/*
+      - cp -r ./docs/.vitepress/dist /testweb
