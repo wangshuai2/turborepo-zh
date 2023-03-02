@@ -1,0 +1,8 @@
+kind: pipeline
+type: docker
+name: turborepo
+steps:
+  - name: build
+    image: node:14.21-alpine
+    commands:
+      - npm run build
