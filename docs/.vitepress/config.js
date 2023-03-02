@@ -206,7 +206,7 @@ module.exports = {
       }
     ]
   },
-  lastUpdated: true,
+  lastUpdated: false,
   markdown: {
     lineNumbers: false
   }
