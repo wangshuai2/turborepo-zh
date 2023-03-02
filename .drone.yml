@@ -5,4 +5,4 @@ steps:
   - name: build
     image: node:14.21-alpine
     commands:
-      - npm run build
+      - npm install && npm run build
